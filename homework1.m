@@ -21,4 +21,4 @@ y = 30 + (60-30)*rand(n,1);
 z = 10 + (15-10)*rand(n,1);
 cxd = [x y z];
 figure(3);
-plot3(x,y,z)
+plot3(x,y,z,'x')
